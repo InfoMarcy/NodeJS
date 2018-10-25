@@ -1,0 +1,19 @@
+{
+  "name": "npm-demo",
+  "version": "1.0.0",
+  "description": "demo app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marci Garcia",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "mongoose": "^5.3.6",
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.6"
+  }
+}
