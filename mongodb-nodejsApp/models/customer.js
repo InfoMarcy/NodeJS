@@ -27,7 +27,10 @@ function validateCustomer(customer){
     // if invalid 400  - Bad Request // joi input validation
    const schema = {
        name: Joi.string().min(3).required(),
-       phone: Joi.string().min(10).required(),
+       // phone is required
+        // and must be a string of the format XXX-XXX-XXXX
+        // where X is a digit (0-9)
+       phone: Joi.string().regex(/^\d{3}-\d{3}-\d{4}$/).required(),
        isGold: Joi.boolean()
    };
    return Joi.validate(customer, schema);
