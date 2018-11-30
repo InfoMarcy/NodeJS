@@ -3,12 +3,26 @@ const router = express.Router();
 const { Genre, validate } = require("../models/genre");
 const auth = require("../middleware/auth");
 const admin = require("../middleware/admin");
+const validateObjectId = require("../middleware/validateObjectId");
+
 
 // route to get all the Genres from the database
 router.get("/", async (req, res, next) => {
   //throw new Error('Could not get the genres. yeah');
     const genres = await Genre.find().sort("name");
     res.send(genres);
+});
+
+// Get an item By ID from the database
+router.get("/:id", validateObjectId, async (req, res) => {
+  //delete and retreave the genre
+  const genre = await Genre.findById(req.params.id);
+
+  // if there is no record return 404 error
+  if (!genre)
+    return res.status(404).send("The Genre with the given ID was not found");
+  // return the response
+  res.send(genre);
 });
 
 // create a record in the database
@@ -25,7 +39,8 @@ router.post("/", auth, async (req, res) => {
 });
 
 // update a record in the database
-router.put("/:id", async (req, res) => {
+router.put("/:id", validateObjectId, async (req, res) => {
+
   // validate the body of the request
   const { error } = validate(req.body);
   if (error) return res.status(400).send(error.details[0].message);
@@ -43,7 +58,7 @@ router.put("/:id", async (req, res) => {
     res.send(genre);
 });
 // delete a record from the database
-router.delete("/:id", [auth, admin], async (req, res) => {
+router.delete("/:id", validateObjectId, [auth, admin], async (req, res) => {
   try {
     //delete and retreave the genre
     const genre = await Genre.findByIdAndRemove(req.params.id);
@@ -56,18 +71,6 @@ router.delete("/:id", [auth, admin], async (req, res) => {
   } catch (ex) {
     res.status(500).send("Something went wrong");
   }
-});
-
-// Get an item By ID from the database
-router.get("/:id", async (req, res) => {
-  //delete and retreave the genre
-  const genre = await Genre.findById(req.params.id);
-
-  // if there is no record return 404 error
-  if (!genre)
-    return res.status(404).send("The Genre with the given ID was not found");
-  // return the response
-  res.send(genre);
 });
 
 module.exports = router;

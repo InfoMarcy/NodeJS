@@ -1,0 +1,61 @@
+{"name":"MongoNetworkError","errorLabels":["TransientTransactionError"],"level":"error","message":"Could not connect  to MongoDB.."}
+{"message":"Connected to MongoDB....","level":"info"}
+{"level":"error","message":"Could not connect  to .."}
+{"message":"Connected to mongodb://localhost/nodejs_db....","level":"info"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"errors":{"name":{"message":"Path `name` (`123`) is shorter than the minimum allowed length (5).","name":"ValidatorError","properties":{"message":"Path `name` (`123`) is shorter than the minimum allowed length (5).","type":"minlength","minlength":5,"path":"name","value":"123"},"kind":"minlength","path":"name","value":"123"}},"_message":"Genre validation failed","message":"Genre validation failed: name: Path `name` (`123`) is shorter than the minimum allowed length (5).","name":"ValidationError","level":"error"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"errors":{"name":{"message":"Path `name` (`aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa`) is longer than the maximum allowed length (50).","name":"ValidatorError","properties":{"message":"Path `name` (`aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa`) is longer than the maximum allowed length (50).","type":"maxlength","maxlength":50,"path":"name","value":"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"},"kind":"maxlength","path":"name","value":"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"}},"_message":"Genre validation failed","message":"Genre validation failed: name: Path `name` (`aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa`) is longer than the maximum allowed length (50).","name":"ValidationError","level":"error"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
+{"message":"Connected to mongodb://localhost/nodejs_db_test....","level":"info"}
